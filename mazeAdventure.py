@@ -87,7 +87,9 @@ imageSpace.grid(row=1,column=0,columnspan=3,rowspan=6)
 textBox.grid(column=3,row=1,columnspan=3,rowspan=3,sticky=E+W+N+S)
 textEntry.grid(column=0,row=7,rowspan=2,columnspan=6,sticky=E+W+N+S)
 
-
+#Main game details
+textEntry.delete(0,END)
+textEntry.insert(0,"Please input your choice")
 
 
 window.mainloop()
